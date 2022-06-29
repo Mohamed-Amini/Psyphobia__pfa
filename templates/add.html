@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Project-1</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="stylesheet" href="../static/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+<link rel="stylesheet" href="../static/style.css">
+<link rel="stylesheet" href="../static/css/responsive.css">
+<link rel="stylesheet" href="../static/css/custom.css">
+<script src="../static/js/modernizr.js"></script>
+</head>
+
+<body id="page-top" class="">
+<!------------------------------------------------------------- Appointment ---------------------------------------->
+<section class="banner3" action="/savedetails" method="post">
+    <div class="py-5 banner" style="background-image:url(https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/form-banners/banner2/banner-bg.jpg);">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7 col-lg-5">
+            <h3 class="my-3 text-white font-weight-medium text-uppercase">Book Appointment</h3>
+            <form class="bg-white" action="/savedetails" method="post">
+              <div class="form-row border-bottom">
+                <div class="p-4 left border-right w-50">
+                  <label class="text-inverse font-12 text-uppercase">First Name</label>
+                  <input type="text" class="border-0 p-0 font-14 form-control" name="name" placeholder="Your First Name" />
+                </div>
+                <div class="p-4 right w-50">
+                  <label class="text-inverse font-12 text-uppercase">Last Name</label>
+                  <input type="text" class="border-0 p-0 font-14 form-control" name="surname" placeholder="Your Last Name" />
+                </div>
+              </div>
+              <div class="form-row border-bottom p-4">
+                <label class="text-inverse font-12 text-uppercase">Email Address</label>
+                <input type="text" class="border-0 p-0 font-14 form-control" name="email" placeholder="Enter your Email Address" />
+              </div>
+              <div class="form-row border-bottom p-4">
+                <label class="text-inverse font-12 text-uppercase">Phone Number</label>
+                <input type="text" name="cell"  class="border-0 p-0 font-14 form-control" placeholder="Enter your Phone Number" />
+              </div>
+              <div class="form-row border-bottom p-4 position-relative">
+                <label class="text-inverse font-12 text-uppercase">Booking Date</label>
+                <div class="input-group date">
+                  <input type="text" class="border-0 p-0 font-14 form-control" name="appon" placeholder="Select the Appointment Date" />
+                  <label class="mt-2"><i class="fa fa-calendar"></i></label>
+                </div>
+              </div>
+              <div class="form-row border-bottom p-4">
+                <label class="text-inverse font-12 text-uppercase">Message</label>
+                <input col="1" row="1" class="border-0 p-0 font-weight-light font-14 form-control"name="messg" placeholder="Write Down the Message"></input>
+              </div>
+              <div>
+                <button class="m-0 border-0 py-4 font-14 font-weight-medium btn btn-danger-gradiant btn-block position-relative rounded-0 text-center text-white text-uppercase">
+                                      <span>Book Yor Appointment Now</span>
+                              </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!------------- end -------------->
+<!----------- Footer -------------->
+<footer class="footer-20192">
+  <div class="site-section">
+    <div class="container">
+      <div class="cta d-block d-md-flex align-items-center px-5">
+        <div>
+          <h2 class="mb-0">For any Unanwsered question do please</h2>
+          <h3 class="text-dark">Contact US by cliquing the button!</h3>
+        </div>
+        <div class="ml-auto">
+          <a href="/Contact" class="btn btn-dark rounded-0 py-3 px-5">Contact us</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm mr-3">
+          <img href="" src="../static/img/logo1.png" style="width:170px; height:140px;" ></img>
+        </div>
+        <div class="col-sm">
+          <h3>Booking</h3>
+          <ul class="list-unstyled links">
+            <li><a href="/Appointement">Appointment</a></li>
+            <li><a href="/Contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-sm">
+          <h3>Company</h3>
+          <ul class="list-unstyled links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/About">About us</a></li>
+            <li><a href="/#Services">Services</a></li>
+            <li><a href="/#Departements">Departements</a></li>
+            <li><a href="/#Doctors">Doctors</a></li>
+            <li><a href="#working-time">Schedule</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h3>Follow us</h3>
+          <ul class="list-unstyled social">
+            <li><a href="#"><span class="icon-facebook"><i class="fa fa-facebook fa-2x mt-2"></i></span></a></li>
+            <li><a href="#"><span class="icon-twitter"><i class="fa fa-twitter fa-2x mt-2"></i></span></a></li>
+            <li><a href="#"><span class="icon-instagram"><i class="fa fa-instagram fa-2x mt-1"></i></span></a></li>
+          </ul>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</footer>
+<!----------- Footer end -------------->
+</body>
+</html>
