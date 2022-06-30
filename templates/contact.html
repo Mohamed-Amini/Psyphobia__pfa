@@ -38,29 +38,29 @@
       </div>
       <div class="second-container">
         <h2>Send Us A Message</h2>
-        <form method="POST" action="/savedetails">
+        <form method="POST" action="/saveConta">
             <div class="form-group">
               <label for="name">Tell us your name*</label>
               <input
                 type="text"
                 placeholder="First name"
                 required
-                name="name"
+                name="fname"
               />
               <input
                 type="text"
                 placeholder="Last name"
                 required
-                name="address"
+                name="sname"
               />
             </div>
             <div class="form-group">
-              <label for="email">Enter your email*</label>
+              <label for="fmail">Enter your email*</label>
               <input
                 type="email"
                 placeholder="Eg. example@email.com"
                 required
-                name="email"
+                name="fmail"
               />
             </div>
             <div class="form-group">
@@ -69,14 +69,14 @@
                 type="number"
                 placeholder="Eg. +1 800 000000"
                 required
-                name="cell"
+                name="tel"
               />
             </div>
             <div class="form-group">
               <label for="messge">Message</label>
               <textarea
                 placeholder="Write us a message"
-                name="adress"
+                name="mseg"
               ></textarea>
             </div>
             <button type="submit" value="submit">Send message</button>
